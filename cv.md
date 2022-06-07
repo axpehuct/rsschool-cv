@@ -7,5 +7,5 @@
   return values.filter(value => value%2 != 0);
   }`
 * -
-*. Bachelor of Radio Engineering faculty
-*. A2
+* Bachelor of Radio Engineering faculty
+* A2
