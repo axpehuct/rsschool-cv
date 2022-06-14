@@ -4,11 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <title>CV</title>
 </head>
 <body>
-    <div>
-        It's a div
-    </div>
+    <header class="header">
+        <div class="container header-container">
+            <h1 class="title">Curriculum vitae</h1>
+            <img class="ava" src="assets/img/ava.jpeg" alt="avatar">
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <ol class="cv-list">
+                <li class="cv-point">Romanov Ivan</li>
+                <li class="cv-point" >
+                    Email:
+                    <a class="email" href="mailto:equento95@gmail.com" >
+                        equento95@gmail.com
+                    </a>
+                </li>
+                <li class="cv-point">
+                    I want to study web development
+                    <ul>
+                        <li class="cv-subpoint">My pros</li>
+                        <li>
+                            <ul>
+                                <li class="cv-subpoint-level2">Learnability</li>
+                                <li class="cv-subpoint-level2">Patience</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="cv-point">I have some experience with C++ programming language with Qt5 Framework. Moreover i've been working with VCS Git.</li>
+                <li class="cv-point">function odds(values){ // arrow it return values.filter(value => value%2 != 0); }</li>
+                <li class="cv-point">-</li>
+                <li class="cv-point">Higher education radio engineering faculty</li>
+                <li class="cv-point">Pre-intermediate А2</li>
+            </ol>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <a class="github" href="https://github.com/axpehuct">Github</a>
+            2022
+            <a class="rss" href="https://rs.school/js/"></a>
+            <!-- <img src="./assets/img/rs_school_js.svg" alt="rss"> -->
+        </div>
+    </footer>
 </body>
 </html>
