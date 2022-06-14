@@ -1,3 +1,114 @@
-div{
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:visited {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    font-size: 14px;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+ul li {
+    list-style: none;
+    vertical-align: center;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.header,
+.footer{
+background-color: #85dcb8;
+}
+
+.header-container{
     display: flex;
+    justify-content: space-between;
+}
+.ava{
+    width: 100px;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.title{
+    font-size: 32px;
+}
+
+.fio{
+    font-size: 24px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rss{
+    height: 50px;
+    width: 140px;
+    background-image: url("assets/img/rs_school_js.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
 }
